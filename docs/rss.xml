@@ -1,4 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>夏夜dream</title><link>https://dreamyunight.github.io</link><description>我是夏夜酱的咩咩羊，分享有用的计算机知识</description><copyright>夏夜dream</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/97020246?v=4</url><title>avatar</title><link>https://dreamyunight.github.io</link></image><lastBuildDate>Wed, 18 Sep 2024 07:30:11 +0000</lastBuildDate><managingEditor>夏夜dream</managingEditor><ttl>60</ttl><webMaster>夏夜dream</webMaster><item><title>如何在ipad/iphone上登陆服务器并编译C/C++</title><link>https://dreamyunight.github.io/post/ru-he-zai-ipad-iphone-shang-deng-lu-fu-wu-qi-bing-bian-yi-C-C%2B%2B.html</link><description>首先需要在苹果设备上下载 ssh 工具，经过筛选，我们选择使用 ISH 这个软件作为 ssh 工具。</description><guid isPermaLink="true">https://dreamyunight.github.io/post/ru-he-zai-ipad-iphone-shang-deng-lu-fu-wu-qi-bing-bian-yi-C-C%2B%2B.html</guid><pubDate>Wed, 18 Sep 2024 07:19:01 +0000</pubDate></item><item><title>yay: error while loading shared libraries: libalpm.so.14: cannot open shared object file: No such file or directory</title><link>https://dreamyunight.github.io/post/yay-%20error%20while%20loading%20shared%20libraries-%20libalpm.so.14-%20cannot%20open%20shared%20object%20file-%20No%20such%20file%20or%20directory.html</link><description>## [[Package Details: yay-bin 12.3.5-1](https://aur.archlinux.org/packages/yay-bin)](https://aur.archlinux.org/packages/yay-bin) &#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>夏夜dream</title><link>https://dreamyunight.github.io</link><description>我是夏夜酱的咩咩羊，分享有用的计算机知识</description><copyright>夏夜dream</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/97020246?v=4</url><title>avatar</title><link>https://dreamyunight.github.io</link></image><lastBuildDate>Tue, 24 Sep 2024 12:17:51 +0000</lastBuildDate><managingEditor>夏夜dream</managingEditor><ttl>60</ttl><webMaster>夏夜dream</webMaster><item><title>Debian安装增强功能</title><link>https://dreamyunight.github.io/post/Debian-an-zhuang-zeng-qiang-gong-neng.html</link><description>安装增强功能&#13;
+------&#13;
+&#13;
+安装必要的软件包&#13;
+--------&#13;
+&#13;
+首先用管理员权限下载`build-essential`、 `dkms`以及 `linux-headers-$(uname -r)`三个必要的软件包：`sudo apt-get install build-essential dkms linux-headers-$(uname -r)`&#13;
+&#13;
+插入增强功能光盘映像&#13;
+----------&#13;
+&#13;
+在设备选项中点击安装增强功能&#13;
+&#13;
+![img](https://github.com/dreamyunight/dreamyunight.github.io/blob/main/backup/resources/image.jpg?raw=true)&#13;
+&#13;
+安装增强功能&#13;
+------&#13;
+&#13;
+然后我们点开`Files`可以看到`VBoxLinuxAdditions.run`，我们需要将该文件`cp`到`/tmp`文件夹中&#13;
+&#13;
+![img](https://github.com/dreamyunight/dreamyunight.github.io/blob/main/backup/resources/VBoxLinuxAdditions.jpg?raw=true)&#13;
+&#13;
+c进入`/tmp`文件夹使用管理员权限运行安装脚本：`sudo ./VBoxLinuxAdditions.run`&#13;
+&#13;
+重启电脑&#13;
+----&#13;
+&#13;
+执行`sudo reboot`重启电脑。</description><guid isPermaLink="true">https://dreamyunight.github.io/post/Debian-an-zhuang-zeng-qiang-gong-neng.html</guid><pubDate>Tue, 24 Sep 2024 12:17:28 +0000</pubDate></item><item><title>如何在ipad/iphone上登陆服务器并编译C/C++</title><link>https://dreamyunight.github.io/post/ru-he-zai-ipad-iphone-shang-deng-lu-fu-wu-qi-bing-bian-yi-C-C%2B%2B.html</link><description>首先需要在苹果设备上下载 ssh 工具，经过筛选，我们选择使用 ISH 这个软件作为 ssh 工具。</description><guid isPermaLink="true">https://dreamyunight.github.io/post/ru-he-zai-ipad-iphone-shang-deng-lu-fu-wu-qi-bing-bian-yi-C-C%2B%2B.html</guid><pubDate>Wed, 18 Sep 2024 07:19:01 +0000</pubDate></item><item><title>yay: error while loading shared libraries: libalpm.so.14: cannot open shared object file: No such file or directory</title><link>https://dreamyunight.github.io/post/yay-%20error%20while%20loading%20shared%20libraries-%20libalpm.so.14-%20cannot%20open%20shared%20object%20file-%20No%20such%20file%20or%20directory.html</link><description>## [[Package Details: yay-bin 12.3.5-1](https://aur.archlinux.org/packages/yay-bin)](https://aur.archlinux.org/packages/yay-bin) &#13;
 &#13;
 随着 pacman 7 的更新，需要重建 yay，如果升级 pacman 而没有同时升级 yay，那么 yay 将无法运行。</description><guid isPermaLink="true">https://dreamyunight.github.io/post/yay-%20error%20while%20loading%20shared%20libraries-%20libalpm.so.14-%20cannot%20open%20shared%20object%20file-%20No%20such%20file%20or%20directory.html</guid><pubDate>Mon, 16 Sep 2024 16:43:36 +0000</pubDate></item><item><title>Dreamyunight_HelloWorld</title><link>https://dreamyunight.github.io/post/Dreamyunight_HelloWorld.html</link><description>Hello World。</description><guid isPermaLink="true">https://dreamyunight.github.io/post/Dreamyunight_HelloWorld.html</guid><pubDate>Thu, 04 Jul 2024 10:41:10 +0000</pubDate></item></channel></rss>
