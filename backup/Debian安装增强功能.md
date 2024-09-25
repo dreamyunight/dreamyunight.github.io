@@ -11,14 +11,14 @@
 
 在设备选项中点击安装增强功能
 
-![img](https://github.com/dreamyunight/dreamyunight.github.io/blob/main/backup/resources/image.jpg?raw=true)
+![zengqiang](https://github.com/dreamyunight/dreamyunight.github.io/blob/main/static/%E5%AE%89%E8%A3%85%E5%A2%9E%E5%BC%BA%E5%8A%9F%E8%83%BD/zengqiang.jpg?raw=true)
 
 安装增强功能
 ------
 
 然后我们点开`Files`可以看到`VBoxLinuxAdditions.run`，我们需要将该文件`cp`到`/tmp`文件夹中
 
-![img](https://github.com/dreamyunight/dreamyunight.github.io/blob/main/backup/resources/VBoxLinuxAdditions.jpg?raw=true)
+![VBoxLinuxAdditions.run](https://github.com/dreamyunight/dreamyunight.github.io/blob/main/static/%E5%AE%89%E8%A3%85%E5%A2%9E%E5%BC%BA%E5%8A%9F%E8%83%BD/VBoxLinuxAdditions.jpg?raw=true)
 
 c进入`/tmp`文件夹使用管理员权限运行安装脚本：`sudo ./VBoxLinuxAdditions.run`
 
