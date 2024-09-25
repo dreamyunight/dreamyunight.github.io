@@ -13,7 +13,7 @@
 然后，将[highlight.min.js](https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js)文件附加到该注释：
 
 ```text-x-sh
-wget https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/[highlight.min.js](https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js)
+wget https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js
 ```
 
 可以获取到这个文件，然后：
