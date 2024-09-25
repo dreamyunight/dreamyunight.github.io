@@ -29,7 +29,7 @@ wget https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js
 完成后Ctrl+R刷新一下就可以正常使用了。  
 
 
-因为原版的配色更适合浅色主题，你也可以选择修改配色方案，只需要替换主脚本文件顶部 `CONST` 中 `<style>` 标记之间的样式表，我目前使用的是这个配色方案：
+因为原版的配色更适合浅色主题，你也可以选择修改配色方案[highlight.js](https://github.com/highlightjs/highlight.js/tree/main/src/styles)，只需要替换主脚本文件顶部 `CONST` 中 `<style>` 标记之间的样式表，我目前使用的是这个配色方案：
 
 ```text-css
 pre code.hljs {
