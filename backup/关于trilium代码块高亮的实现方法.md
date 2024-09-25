@@ -1,8 +1,8 @@
-[**[Trilium-SyntaxHighlightWidget](https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget)**](https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget) 
+[Trilium-SyntaxHighlightWidget](https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget)
 
 **trilium不支持代码块高亮，大佬提供了相关实现方法，不过我一开始并没有理解如何使用，研究之后我成功完成并决定写一个文档，因为全网基本找不到相关教程。**
 
-很简单，首先，使用[[SyntaxHighlightWidget.js](https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget/blob/main/SyntaxHighlightWidget.js)](https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget/blob/main/SyntaxHighlightWidget.js)的内容和标签 #widget 创建 JS Frontend 类型的代码注释：
+很简单，首先，使用[SyntaxHighlightWidget.js](https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget/blob/main/SyntaxHighlightWidget.js)的内容和标签 #widget 创建 JS Frontend 类型的代码注释：
 
 ![SyntaxHightWidget](https://github.com/dreamyunight/dreamyunight.github.io/blob/main/static/trilium%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE/SyntaxHightWidget.png?raw=true)
 
@@ -10,7 +10,7 @@
 
 ![widget](https://github.com/dreamyunight/dreamyunight.github.io/blob/main/static/trilium%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE/widget.png?raw=true)
 
-然后，将[[highlight.min.js](https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js)](https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js)文件附加到该注释：
+然后，将[highlight.min.js](https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js)文件附加到该注释：
 
 ```text-x-sh
 wget https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/[highlight.min.js](https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js)
