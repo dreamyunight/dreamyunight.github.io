@@ -1,5 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>夏夜dream</title><link>https://dreamyunight.github.io</link><description>我是夏夜酱的咩咩羊，分享有用的计算机知识</description><copyright>夏夜dream</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/97020246?v=4</url><title>avatar</title><link>https://dreamyunight.github.io</link></image><lastBuildDate>Wed, 25 Sep 2024 12:22:01 +0000</lastBuildDate><managingEditor>夏夜dream</managingEditor><ttl>60</ttl><webMaster>夏夜dream</webMaster><item><title>关于trilium代码块高亮的实现方法</title><link>https://dreamyunight.github.io/post/guan-yu-trilium-dai-ma-kuai-gao-liang-de-shi-xian-fang-fa.html</link><description>[Trilium-SyntaxHighlightWidget](https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget)&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>夏夜dream</title><link>https://dreamyunight.github.io</link><description>我是夏夜酱的咩咩羊，分享有用的计算机知识</description><copyright>夏夜dream</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/97020246?v=4</url><title>avatar</title><link>https://dreamyunight.github.io</link></image><lastBuildDate>Tue, 01 Oct 2024 07:30:58 +0000</lastBuildDate><managingEditor>夏夜dream</managingEditor><ttl>60</ttl><webMaster>夏夜dream</webMaster><item><title>Docker配置系统代理</title><link>https://dreamyunight.github.io/post/Docker-pei-zhi-xi-tong-dai-li.html</link><description>## Docker 代理配置
+
+```powershell
+sudo mkdir /etc/systemd/system/docker.service.d &amp;&amp; \
+sudo touch /etc/systemd/system/docker.service.d/http-proxy.conf &amp;&amp; \
+sudo vim /etc/systemd/system/docker.service.d/http-proxy.conf
+```
+
+写入
+
+```conf
+[Service]
+Environment='HTTP_PROXY=http://127.0.0.1:7890/“
+Environment='HTTPS_PROXY=http://127.0.0.1:7890/'
+Environment='NO_PROXY=localhost,127.0.0.1'
+```
+
+或者带代理账号密码
+
+```
+[Service]
+Environment='HTTP_PROXY=http://Clash:123456@127.0.0.1:7890/“
+Environment='HTTPS_PROXY=http://Clash:123456@127.0.0.1:7890/'
+Environment='NO_PROXY=localhost,127.0.0.1'
+```
+
+重启 Docker
+
+```powershell
+sudo systemctl daemon-reload &amp;&amp;\
+sudo systemctl restart docker
+```。</description><guid isPermaLink="true">https://dreamyunight.github.io/post/Docker-pei-zhi-xi-tong-dai-li.html</guid><pubDate>Tue, 01 Oct 2024 07:30:33 +0000</pubDate></item><item><title>关于trilium代码块高亮的实现方法</title><link>https://dreamyunight.github.io/post/guan-yu-trilium-dai-ma-kuai-gao-liang-de-shi-xian-fang-fa.html</link><description>[Trilium-SyntaxHighlightWidget](https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget)&#13;
 &#13;
 **trilium不支持代码块高亮，大佬提供了相关实现方法，不过我一开始并没有理解如何使用，研究之后我成功完成并决定写一个文档，因为全网基本找不到相关教程。</description><guid isPermaLink="true">https://dreamyunight.github.io/post/guan-yu-trilium-dai-ma-kuai-gao-liang-de-shi-xian-fang-fa.html</guid><pubDate>Wed, 25 Sep 2024 12:19:07 +0000</pubDate></item><item><title>Debian安装增强功能</title><link>https://dreamyunight.github.io/post/Debian-an-zhuang-zeng-qiang-gong-neng.html</link><description>安装增强功能&#13;
 ------&#13;
